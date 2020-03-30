@@ -1,8 +1,8 @@
 # crud-app
 
-clone the whole project and change directories to server by- cd server
-then install npm by npm install
- create the new mysql database 'testdb' 
+Clone the whole project and change directories to server by- cd server.
+Then install npm by npm install
+ Create the new mysql database 'testdb' 
  For seeding the initial database with Product and Brand write command- sequelize db:seed:all
  Now write- node server.js or npm start to fire up the server. The server will run on localhost:8050
 
@@ -27,8 +27,10 @@ DELETE /products delete all the products
 Now change the directories to client-
               cd .. 
               cd client
-  
+  Now write the command -   npm run serve 
+The client will run on localhost:8000
 
+Cheers!!
 
 
 

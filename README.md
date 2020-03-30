@@ -57,9 +57,8 @@ DELETE 	/products delete all the products
 
 Now change the directories to client-
 
-              cd .. 
 														
-              cd client
+            cd client
 														
   Now write the command -   
 		

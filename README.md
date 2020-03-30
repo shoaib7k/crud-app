@@ -30,30 +30,30 @@ The base server url format for all endpoints is:
 
 http://localhost:8050/api
 
-POST /brands create a new brand(name:string)
+POST 	/brands create a new brand(name:string)
 
-GET /brands return all the brands
+GET 	/brands return all the brands
 
-GET /brands/:id return one speciic brand
+GET	 /brands/:id return one speciic brand
 
-PUT /brands/:id update one brand 
+PUT 	/brands/:id update one brand 
 
-DELETE /brands/:id delete one brand
+DELETE	 /brands/:id delete one brand
 
-DELETE /brands delete all the brands
+DELETE 	/brands delete all the brands
 
 
-POST /products create a new product(name:string,brand:string)
+POST 	/products create a new product(name:string,brand:string)
 
-GET /products return all the products
+GET 	/products return all the products
 
-GET /products/:id return one speciic product
+GET	 /products/:id return one speciic product
 
-PUT /product/:id update one product 
+PUT 	/product/:id update one product 
 
-DELETE /products/:id delete one product
+DELETE	 /products/:id delete one product
 
-DELETE /products delete all the products
+DELETE 	/products delete all the products
 
 Now change the directories to client-
 
